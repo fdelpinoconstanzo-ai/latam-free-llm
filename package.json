@@ -1,0 +1,17 @@
+{
+  "name": "latam-free-llm",
+  "version": "0.1.0",
+  "description": "Agregador de APIs free de LLMs para LATAM. Endpoint OpenAI-compatible con failover.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "@hono/node-server": "^1.13.0",
+    "dotenv": "^16.4.5"
+  },
+  "license": "MIT"
+}
